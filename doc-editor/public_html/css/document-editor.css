@@ -1,0 +1,15 @@
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+
+.document-editor-content {
+  border: 1px solid gray;
+  height: 300px;
+  width: 100%;
+  overflow: auto;
+  padding: 2px;
+  resize: vertical;
+  margin: 20px 0px 60px 0px;
+}

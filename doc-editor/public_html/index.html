@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Document editor</title>
+
+    <!-- Le styles -->
+    <link href="js/libs/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="js/libs/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/document-editor.css" rel="stylesheet">
+  </head>
+
+  <body ng-app="document-editor">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <span class="brand">Html editor for document generation v 0.1</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="span2"></div>
+        <div class="span8" ng-controller="DocumentEditorController">
+          <h2 class="text-center">Document editor</h2>
+
+          <div document-editor text="sampleText"></div>
+
+        </div>
+        <div class="span2"></div>
+      </div>
+
+      <hr>
+
+      <footer></footer>
+
+    </div>
+    <script src="js/libs/jquery-1.9.0/jquery.min.js"></script>
+    <script src="js/libs/bootstrap/js/bootstrap.js"></script>
+    <script src="js/libs/angularjs/angular.js"></script>
+
+
+    <script src="document-editor.js"></script>
+  </body>
+</html>
